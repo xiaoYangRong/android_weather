@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--溢出菜单样式-->
+    <style name="ToolbarPopurTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+
+    <style name="OverflowMenuStyle">
+        <item name="overlapAnchor">false</item>
+    </style>
+    <!--去除默认的ActionBar-->
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置溢出的三个点的颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+</resources>
